@@ -152,3 +152,12 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 75ms (Views: 70.7ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/posts" for 127.0.0.1 at 2018-02-02 17:15:55 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 314ms (Views: 299.2ms | ActiveRecord: 1.5ms)
+
+
